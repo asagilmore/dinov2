@@ -1,0 +1,6 @@
+# this corresponds to the default config
+train:
+  dataset_path: HCP1200Dataset:root=/app/data
+  batch_size_per_gpu: 128
+student:
+  block_chunks: 4
